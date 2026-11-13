@@ -1,0 +1,28 @@
+# Local builds, installers, fonts and downloaded media
+dist/
+build/
+*.exe
+*.dll
+*.zip
+*.ttf
+*.otf
+*.m4a
+*.mp4
+*.webp
+
+# Local assistant configuration and design experiments
+.agents/
+.codex/
+.gemini/
+.impeccable/
+demo-immersive/
+skills-lock.json
+
+# Local credentials and runtime data
+.env
+.env.*
+*.log
+*.sqlite
+*.db
+*.jsonl
+config.yaml
